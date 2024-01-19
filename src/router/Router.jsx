@@ -7,7 +7,6 @@ export const Router = () => {
     <BrowserRouter>
         <Routes>
            {/*  Rutas publicas */}
-           <Route path='/' element={<Reproductor/>}/>
            <Route index element={<Reproductor/>}/>
            <Route path='inicio' element={<Reproductor/>} />
         </Routes>
